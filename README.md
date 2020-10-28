@@ -36,5 +36,5 @@ off of a successful implementation
 			AWS.config.region = 'us-east-1'; // Region
 			AWS.config.credentials = new AWS.CognitoIdentityCredentials({
 			    IdentityPoolId: 'us-east-1:7bbbddf8-b270-4cf2-af9b-c8a4bd406f12',
-			}); ```
+			}); 
 		- polly.html was implemented just to test that the Cognito Identity Pool functioned properly
