@@ -32,9 +32,9 @@ off of a successful implementation
 		- pool name: ViewPhotoIdentity
 		- Unauthorized Role: Cognito_ViewPhotoIdentityUnauth_Role
 		- sample code: 
-			// Initialize the Amazon Cognito credentials provider
+			```javascript // Initialize the Amazon Cognito credentials provider
 			AWS.config.region = 'us-east-1'; // Region
 			AWS.config.credentials = new AWS.CognitoIdentityCredentials({
 			    IdentityPoolId: 'us-east-1:7bbbddf8-b270-4cf2-af9b-c8a4bd406f12',
-			});
+			}); ```
 		- polly.html was implemented just to test that the Cognito Identity Pool functioned properly
