@@ -12,7 +12,7 @@ off of a successful implementation
 	- S3 Bucket
 		- bucket name: viewphotobucket
 		- Updated CORS Configuration: 
-			<?xml version="1.0" encoding="UTF-8"?>
+			```html <?xml version="1.0" encoding="UTF-8"?>
 			<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 			    <CORSRule>
 			        <AllowedOrigin>*</AllowedOrigin>
@@ -24,7 +24,7 @@ off of a successful implementation
 			        <AllowedHeader>*</AllowedHeader>
 			        <ExposeHeader>ETag</ExposeHeader>
 			    </CORSRule>
-			</CORSConfiguration>
+			</CORSConfiguration>```
 	- IAM 
 		- new policy name: UploadBucketPolicy
 			- allows s3:DeleteObject, GetObject, ListBucket, and Put object on our bucket
