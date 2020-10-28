@@ -1,6 +1,8 @@
 ## Amazon's Photo Upload Tutorial
 This will be built off of the tutorial for viewing photos. While not a prequisite, my original attempt to use the upload photo tutorial failed, so this attempt will try to remedy that by building off of a successful implementation.
 
+A working version of the demo can be found [here](http://18.206.14.34/~ubuntu/aws_demo/amazon_upload_photo/upload/photo_upload.html).
+
 ### Important Links
 - The tutorial for viewing photo albums can be found [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photos-view.html)
 	- I followed this tutorial in creating the needed Cognito Identity Pool [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-started-browser.html#getting-started-browser-create-identity-pool)
