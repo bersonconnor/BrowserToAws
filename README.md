@@ -1,6 +1,5 @@
 ## Amazon's Photo Upload Tutorial
-This will be built off of the directory: ../amazon_view_photo. While not a prequisite, my original attempt to use the upload photo tutorial failed, so this attempt will try to remedy that by building 
-off of a successful implementation
+This will be built off of the tutorial for viewing photos. While not a prequisite, my original attempt to use the upload photo tutorial failed, so this attempt will try to remedy that by building off of a successful implementation.
 
 ### Important Links
 - The tutorial for viewing photo albums can be found [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photos-view.html)
@@ -8,7 +7,7 @@ off of a successful implementation
 	- This [site](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/) has the most recent information regarding the AWS SDK
 - The tutorial for uploading files can be found [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photo-album.html)
 ### Amazon Resource Information
-- This is the information regarded to the amazon resources used
+- This is the information regarded to the amazon resources used. Note that if you want to implement this tutorial yourself, the bucket's name, the policy name, the pool name, the unauthorized role, and the pools identity will all be whatever you name those entities in your AWS console.
 	- S3 Bucket
 		- bucket name: viewphotobucket
 		- Updated CORS Configuration: 
