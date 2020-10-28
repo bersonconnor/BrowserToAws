@@ -24,7 +24,7 @@ off of a successful implementation
 			        <AllowedHeader>*</AllowedHeader>
 			        <ExposeHeader>ETag</ExposeHeader>
 			    </CORSRule>
-			</CORSConfiguration>```
+			</CORSConfiguration>
 	- IAM 
 		- new policy name: UploadBucketPolicy
 			- allows s3:DeleteObject, GetObject, ListBucket, and Put object on our bucket
